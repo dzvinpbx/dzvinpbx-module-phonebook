@@ -1,0 +1,20 @@
+{
+  "developer":"MIKO",
+  "moduleUniqueID":"ModulePhoneBook",
+  "support_email": "help@miko.ru",
+  "version": "%ModuleVersion%",
+  "min_pbx_version": "2024.1.114",
+  "wiki_links": {
+    "ru": {
+      "https://wiki.mikopbx.com/module-phone-book": "https://wiki.mikopbx.com/ru/module-phone-book"
+    },
+    "en": {
+      "https://wiki.mikopbx.com/en:module-phone-book": "https://wiki.mikopbx.com/en/module-phone-book"
+    }
+  },
+  "release_settings": {
+    "publish_release": true,
+    "changelog_enabled": true,
+    "create_github_release": true
+  }
+}

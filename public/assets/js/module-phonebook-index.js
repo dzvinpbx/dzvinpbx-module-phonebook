@@ -1,0 +1,31 @@
+"use strict";
+
+/*
+ * MikoPBX - free phone system for small business
+ * Copyright © 2017-2024 Alexey Portnov and Nikolay Beketov
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with this program.
+ * If not, see <https://www.gnu.org/licenses/>.
+ */
+var ModulePhoneBook = {
+  $tabMenu: $('#module-phonebook-menu .item'),
+  $checkBoxes: $('#module-phonebook-menu .checkbox'),
+  initialize: function initialize() {
+    ModulePhoneBook.$tabMenu.tab();
+    ModulePhoneBook.$checkBoxes.checkbox();
+  }
+};
+$(document).ready(function () {
+  ModulePhoneBook.initialize();
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9tb2R1bGUtcGhvbmVib29rLWluZGV4LmpzIl0sIm5hbWVzIjpbIk1vZHVsZVBob25lQm9vayIsIiR0YWJNZW51IiwiJCIsIiRjaGVja0JveGVzIiwiaW5pdGlhbGl6ZSIsInRhYiIsImNoZWNrYm94IiwiZG9jdW1lbnQiLCJyZWFkeSJdLCJtYXBwaW5ncyI6Ijs7QUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBR0EsSUFBTUEsZUFBZSxHQUFHO0FBQ3BCQyxFQUFBQSxRQUFRLEVBQUVDLENBQUMsQ0FBQyw4QkFBRCxDQURTO0FBRXBCQyxFQUFBQSxXQUFXLEVBQUVELENBQUMsQ0FBQyxrQ0FBRCxDQUZNO0FBR3BCRSxFQUFBQSxVQUhvQix3QkFHUDtBQUNUSixJQUFBQSxlQUFlLENBQUNDLFFBQWhCLENBQXlCSSxHQUF6QjtBQUNBTCxJQUFBQSxlQUFlLENBQUNHLFdBQWhCLENBQTRCRyxRQUE1QjtBQUNIO0FBTm1CLENBQXhCO0FBU0FKLENBQUMsQ0FBQ0ssUUFBRCxDQUFELENBQVlDLEtBQVosQ0FBa0IsWUFBTTtBQUNwQlIsRUFBQUEsZUFBZSxDQUFDSSxVQUFoQjtBQUNILENBRkQiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogTWlrb1BCWCAtIGZyZWUgcGhvbmUgc3lzdGVtIGZvciBzbWFsbCBidXNpbmVzc1xuICogQ29weXJpZ2h0IMKpIDIwMTctMjAyNCBBbGV4ZXkgUG9ydG5vdiBhbmQgTmlrb2xheSBCZWtldG92XG4gKlxuICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU6IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnlcbiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5XG4gKiB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uOyBlaXRoZXIgdmVyc2lvbiAzIG9mIHRoZSBMaWNlbnNlLCBvclxuICogKGF0IHlvdXIgb3B0aW9uKSBhbnkgbGF0ZXIgdmVyc2lvbi5cbiAqXG4gKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVzZWZ1bCxcbiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mXG4gKiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBPU0UuICBTZWUgdGhlXG4gKiBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBmb3IgbW9yZSBkZXRhaWxzLlxuICpcbiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLlxuICogSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi5cbiAqL1xuXG5cbmNvbnN0IE1vZHVsZVBob25lQm9vayA9IHtcbiAgICAkdGFiTWVudTogJCgnI21vZHVsZS1waG9uZWJvb2stbWVudSAuaXRlbScpLFxuICAgICRjaGVja0JveGVzOiAkKCcjbW9kdWxlLXBob25lYm9vay1tZW51IC5jaGVja2JveCcpLFxuICAgIGluaXRpYWxpemUoKSB7XG4gICAgICAgIE1vZHVsZVBob25lQm9vay4kdGFiTWVudS50YWIoKTtcbiAgICAgICAgTW9kdWxlUGhvbmVCb29rLiRjaGVja0JveGVzLmNoZWNrYm94KCk7XG4gICAgfSxcbn07XG5cbiQoZG9jdW1lbnQpLnJlYWR5KCgpID0+IHtcbiAgICBNb2R1bGVQaG9uZUJvb2suaW5pdGlhbGl6ZSgpO1xufSk7XG4iXX0=
