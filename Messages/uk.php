@@ -45,4 +45,11 @@ return [
     'module_phnbk_AllRecordsDeleted' => 'Усі записи видалені',
     'module_phnbk_RecognitionOnProgress' => 'Розбір та завантаження даних із файлу',
     'module_phnbk_RecognitionFinished' => 'Завантаження даних виконано',
+    'module_phnbk_UrlNotValid' => 'Недійсна URL-адреса',
+    'module_phnbk_IntegerPositiveOrZero' => 'Ціле позитивне число або нуль',
+    'module_phnbk_CacheLifetime' => 'Час життя кешу',
+    'module_phnbk_CacheLifetimeDescription' => 'Кількість секунд, протягом яких кешований запис буде дійсним. 0 — назавжди.',
+    'module_phnbk_SaveBtn' => 'Зберегти',
+    'module_phnbk_ApiUrl' => 'URL-адреса для пошуку CallerID',
+    'module_phnbk_ApiUrlDescription' => '%repesent% у рядку буде замінено на номер телефону.',
 ];

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * MikoPBX - free phone system for small business
+ * Dzvin PBX - free phone system for small business
  * Copyright © 2017-2024 Alexey Portnov and Nikolay Beketov
  *
  * This program is free software: you can redistribute it and/or modify
@@ -19,10 +19,10 @@
  */
 namespace Modules\ModulePhoneBook\Setup;
 
-use MikoPBX\Common\Models\PbxSettings;
-use MikoPBX\Core\System\SystemMessages;
-use MikoPBX\Modules\Setup\PbxExtensionSetupBase;
-use Modules\ModulePhoneBook\Lib\MikoPBXVersion;
+use DzvinPBX\Common\Models\PbxSettings;
+use DzvinPBX\Core\System\SystemMessages;
+use DzvinPBX\Modules\Setup\PbxExtensionSetupBase;
+use Modules\ModulePhoneBook\Lib\DzvinPBXVersion;
 use Modules\ModulePhoneBook\Models\PhoneBook;
 
 class PbxExtensionSetup extends PbxExtensionSetupBase
@@ -62,7 +62,7 @@ class PbxExtensionSetup extends PbxExtensionSetupBase
     public function addToSidebar(): bool
     {
         $menuSettingsKey           = "AdditionalMenuItem{$this->moduleUniqueID}";
-        $texClass = MikoPBXVersion::getTextClass();
+        $texClass = DzvinPBXVersion::getTextClass();
         $unCamelizedControllerName = $texClass::uncamelize($this->moduleUniqueID, '-');
         $menuSettings              = PbxSettings::findFirstByKey($menuSettingsKey);
         if ($menuSettings === null) {

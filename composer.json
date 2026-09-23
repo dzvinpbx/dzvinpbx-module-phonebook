@@ -1,11 +1,11 @@
 {
-    "name": "mikopbx/modulephonebook",
+    "name": "dzvinpbx/modulephonebook",
     "description": "ModulePhoneBook",
     "require": {
         "php": "^7.4",
-        "guzzlehttp/guzzle": "^7.10",
+        "guzzlehttp/guzzle": "^7.15",
         "maennchen/zipstream-php": "2.2.6",
-        "phpoffice/phpspreadsheet": "1.29.2"
+        "phpoffice/phpspreadsheet": "^1.30"
     },
     "autoload": {
         "psr-4": {
@@ -17,7 +17,7 @@
         "pbx",
         "asterisk",
         "freepbx",
-        "mikopbx",
+        "dzvinpbx",
         "sip",
         "voip",
         "phalcon",
@@ -26,33 +26,23 @@
         "cti"
     ],
     "license": "GPL-3.0-or-later",
-    "homepage": "https://github.com/mikopbx/ModulePhoneBook",
+    "homepage": "https://github.com/sanchozu/dzvinpbx-module-phonebook",
     "support": {
-        "email": "help@mikopbx.com",
-        "wiki": "https://wiki.mikopbx.com",
-        "issues": "https://github.com/mikopbx/Core/issues",
-        "source": "https://github.com/mikopbx/Core",
-        "forum": "https://qa.mikopbx.ru",
-        "chat": "https://t.me/mikopbx_dev"
+        "issues": "https://github.com/sanchozu/dzvinpbx-module-phonebook/issues",
+        "source": "https://github.com/sanchozu/dzvinpbx-module-phonebook"
     },
     "authors": [
         {
             "name": "Alexey Portnov",
             "email": "apor@miko.ru",
             "homepage": "https://www.facebook.com/PortnovAlexey",
-            "role": "Developer"
+            "role": "Developer (upstream MikoPBX ModulePhoneBook)"
         },
         {
             "name": "Nikolay Beketov",
             "email": "nbek@miko.ru",
             "homepage": "https://www.linkedin.com/in/nikolay-beketov",
-            "role": "Developer"
-        }
-    ],
-    "funding": [
-        {
-            "type": "patreon",
-            "url": "https://www.patreon.com/mikopbx"
+            "role": "Developer (upstream MikoPBX ModulePhoneBook)"
         }
     ],
     "config": {

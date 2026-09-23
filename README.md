@@ -1,11 +1,14 @@
-# Phone Book Module for MikoPBX
+# Phone Book Module for Dzvin PBX
 
-[![GitHub release](https://img.shields.io/github/v/release/mikopbx/ModulePhoneBook)](https://github.com/mikopbx/ModulePhoneBook/releases)
+[![GitHub release](https://img.shields.io/github/v/release/sanchozu/dzvinpbx-module-phonebook)](https://github.com/sanchozu/dzvinpbx-module-phonebook/releases)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-**[Русская версия](README.ru.md)** | **English**
+**[Українською](README.uk.md)** | **[Русская версия](README.ru.md)** | **English**
 
-Contact management module for MikoPBX with real-time caller ID lookup on incoming and outgoing calls.
+Contact management module for Dzvin PBX with real-time caller ID lookup on incoming and outgoing calls.
+
+> This is a Dzvin PBX fork of the MikoPBX **ModulePhoneBook** module — see
+> [Attribution](#attribution) below.
 
 ## Features
 
@@ -18,11 +21,11 @@ Contact management module for MikoPBX with real-time caller ID lookup on incomin
 
 ## Requirements
 
-- MikoPBX 2024.1.114 or higher
+- Dzvin PBX 2024.1.114 or higher
 
 ## Installation
 
-1. Go to **Modules** → **Marketplace** in MikoPBX admin panel
+1. Go to **Modules** → **Marketplace** in Dzvin PBX admin panel
 2. Find **Phone Book** module
 3. Click **Install**
 
@@ -150,7 +153,7 @@ ModulePhoneBook/
 
 ## Database
 
-SQLite database at `/storage/usbdisk1/mikopbx/custom_modules/ModulePhoneBook/db/module.db`
+SQLite database at `/storage/usbdisk1/dzvinpbx/custom_modules/ModulePhoneBook/db/module.db`
 
 **m_PhoneBook** — contacts:
 - `id` — primary key
@@ -171,7 +174,7 @@ SQLite database at `/storage/usbdisk1/mikopbx/custom_modules/ModulePhoneBook/db/
 
 ```bash
 # Compile ES6 to ES5 with Babel
-docker run --rm -v ~/mikopbx:/workspace ghcr.io/mikopbx/babel-compiler:latest /workspace/Extensions/[module]/public/assets/js/src/[file] extension`
+docker run --rm -v ~/dzvinpbx:/workspace ghcr.io/mikopbx/babel-compiler:latest /workspace/Extensions/[module]/public/assets/js/src/[file] extension`
 ```
 
 ### PHP Syntax Check
@@ -182,15 +185,23 @@ php -l Lib/PhoneBookConf.php
 
 ## Links
 
-- [Documentation (EN)](https://docs.mikopbx.com/mikopbx/english/modules/miko/module-phone-book)
-- [Documentation (RU)](https://docs.mikopbx.com/mikopbx/modules/miko/phone-book)
-- [MikoPBX Website](https://mikopbx.com)
+- [Upstream documentation (EN)](https://docs.mikopbx.com/mikopbx/english/modules/miko/module-phone-book) — MikoPBX docs; the module's functionality is unchanged by the fork
+- [Upstream documentation (RU)](https://docs.mikopbx.com/mikopbx/modules/miko/phone-book)
 
 ## Support
 
-- Email: help@miko.ru
-- Issues: [GitHub Issues](https://github.com/mikopbx/ModulePhoneBook/issues)
+Issues: [GitHub Issues](https://github.com/sanchozu/dzvinpbx-module-phonebook/issues) in this repository.
 
 ## License
 
-GPL-3.0 — see [LICENSE](LICENSE) file.
+GPL-3.0-or-later — see [LICENSE](LICENSE).
+
+## Attribution
+
+This is a Dzvin PBX fork of [`mikopbx/ModulePhoneBook`](https://github.com/mikopbx/ModulePhoneBook)
+(forked from tag `v1.55`, commit `3ae3108`), © 2017-2024 Alexey Portnov and Nikolay Beketov,
+licensed GPL-3.0-or-later. The fork renames the PBX core namespace the module loads against
+(`MikoPBX\` → `DzvinPBX\`) so it runs on Dzvin PBX, fills in the missing Ukrainian UI strings,
+and adjusts branding, links and the release process for this repository. The original copyright
+and license headers are kept unchanged in every source file; see [MikoPBX Core](https://github.com/mikopbx/Core)
+for the upstream PBX this module was built for.

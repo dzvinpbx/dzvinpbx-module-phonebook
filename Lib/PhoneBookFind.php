@@ -1,7 +1,7 @@
 <?php
 
 /*
- * MikoPBX - free phone system for small business
+ * Dzvin PBX - free phone system for small business
  * Copyright © 2017-2024 Alexey Portnov and Nikolay Beketov
  *
  * This program is free software: you can redistribute it and/or modify
@@ -23,7 +23,7 @@ namespace Modules\ModulePhoneBook\Lib;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Exception\GuzzleException;
-use MikoPBX\Core\System\Util;
+use DzvinPBX\Core\System\Util;
 use Modules\ModulePhoneBook\Models\PhoneBook;
 use Modules\ModulePhoneBook\Models\Settings;
 use Phalcon\Di\Injectable;

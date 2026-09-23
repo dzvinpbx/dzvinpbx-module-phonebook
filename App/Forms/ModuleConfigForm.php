@@ -1,7 +1,7 @@
 <?php
 
 /*
- * MikoPBX - free phone system for small business
+ * Dzvin PBX - free phone system for small business
  * Copyright © 2017-2023 Alexey Portnov and Nikolay Beketov
  *
  * This program is free software: you can redistribute it and/or modify
@@ -20,7 +20,7 @@
 
 namespace Modules\ModulePhoneBook\App\Forms;
 
-use MikoPBX\AdminCabinet\Forms\BaseForm;
+use DzvinPBX\AdminCabinet\Forms\BaseForm;
 use Phalcon\Forms\Element\Text;
 use Phalcon\Forms\Element\Numeric;
 use Phalcon\Forms\Element\Check;
@@ -54,7 +54,7 @@ class ModuleConfigForm extends BaseForm
 
     /**
      * Adds a checkbox to the form field with the given name.
-     * Can be deleted if the module depends on MikoPBX later than 2024.3.0
+     * Can be deleted if the module depends on DzvinPBX later than 2024.3.0
      *
      * @param string $fieldName The name of the form field.
      * @param bool $checked Indicates whether the checkbox is checked by default.

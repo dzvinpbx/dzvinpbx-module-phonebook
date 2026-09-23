@@ -4,13 +4,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-ModulePhoneBook is a MikoPBX extension module that provides caller ID management and contact storage. It integrates with Asterisk PBX for real-time caller identification on inbound and outbound calls.
+ModulePhoneBook is a DzvinPBX extension module that provides caller ID management and contact storage. It integrates with Asterisk PBX for real-time caller identification on inbound and outbound calls.
 
 ## Build Commands
 
 ### JavaScript Compilation
 ```bash
-docker run --rm -v /Users/nb/PhpstormProjects/mikopbx:/workspace ghcr.io/mikopbx/babel-compiler:latest /workspace/Extensions/[module]/public/assets/js/src/[file] extension`
+docker run --rm -v /Users/nb/PhpstormProjects/dzvinpbx:/workspace ghcr.io/mikopbx/babel-compiler:latest /workspace/Extensions/[module]/public/assets/js/src/[file] extension`
 ```
 
 ### PHP Syntax Check
@@ -35,7 +35,7 @@ composer install
   - `PhoneBookConf.php` - PBX integration, REST API callbacks, Asterisk dialplan generation
   - `PhoneBookAgi.php` - Asterisk AGI handler for real-time caller ID lookup
   - `PhoneBookImport.php` - Excel import processor using PhpSpreadsheet
-  - `MikoPBXVersion.php` - Version compatibility helpers
+  - `DzvinPBXVersion.php` - Version compatibility helpers
 - `Models/` - Phalcon ORM models (PhoneBook, Settings)
 - `Setup/` - Module installation logic (PbxExtensionSetup)
 - `agi-bin/` - Asterisk AGI scripts
@@ -56,7 +56,7 @@ Numbers are normalized for consistent storage and fast lookups:
 - Example: `+7 (906) 555-43-43` → `1065554343`
 
 ### Database
-SQLite database at runtime: `/storage/usbdisk1/mikopbx/custom_modules/ModulePhoneBook/db/module.db`
+SQLite database at runtime: `/storage/usbdisk1/dzvinpbx/custom_modules/ModulePhoneBook/db/module.db`
 
 Tables:
 - `m_PhoneBook` - contacts (id, number, number_rep, call_id, search_index)
@@ -82,4 +82,6 @@ Tables:
 
 ## CI/CD
 
-GitHub Actions workflow (`.github/workflows/build.yml`) uses shared MikoPBX workflow for building and publishing releases.
+No CI workflow yet. Releases are built and signed manually with `bin/build-module` from the
+`dzvinpbx-marketplace` repository and published with `gh release create`; see that repository's
+`docs/signing.md`.

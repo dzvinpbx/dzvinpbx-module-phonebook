@@ -1,7 +1,7 @@
 <?php
 
 /*
- * MikoPBX - free phone system for small business
+ * Dzvin PBX - free phone system for small business
  * Copyright © 2017-2024 Alexey Portnov and Nikolay Beketov
  *
  * This program is free software: you can redistribute it and/or modify
@@ -20,8 +20,8 @@
 
 namespace Modules\ModulePhoneBook\Models;
 
-use MikoPBX\Modules\Models\ModulesModelsBase;
-use Modules\ModulePhoneBook\Lib\MikoPBXVersion;
+use DzvinPBX\Modules\Models\ModulesModelsBase;
+use Modules\ModulePhoneBook\Lib\DzvinPBXVersion;
 
 class Settings extends ModulesModelsBase
 {
@@ -67,8 +67,8 @@ class Settings extends ModulesModelsBase
      */
     public function validation(): bool
     {
-        $validationClass = MikoPBXVersion::getValidationClass();
-        $callbackClass = MikoPBXVersion::getValidatorCallbackClass();
+        $validationClass = DzvinPBXVersion::getValidationClass();
+        $callbackClass = DzvinPBXVersion::getValidatorCallbackClass();
         $validation = new $validationClass();
 
         $validation->add(

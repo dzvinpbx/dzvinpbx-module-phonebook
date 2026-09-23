@@ -1,7 +1,7 @@
 <?php
 
 /*
- * MikoPBX - free phone system for small business
+ * Dzvin PBX - free phone system for small business
  * Copyright © 2017-2024 Alexey Portnov and Nikolay Beketov
  *
  * This program is free software: you can redistribute it and/or modify
@@ -19,10 +19,10 @@
  */
 namespace Modules\ModulePhoneBook\Lib;
 
-use MikoPBX\Core\Asterisk\Configs\ExtensionsConf;
-use MikoPBX\Core\System\PBX;
-use MikoPBX\Modules\Config\ConfigClass;
-use MikoPBX\PBXCoreREST\Lib\PBXApiResult;
+use DzvinPBX\Core\Asterisk\Configs\ExtensionsConf;
+use DzvinPBX\Core\System\PBX;
+use DzvinPBX\Modules\Config\ConfigClass;
+use DzvinPBX\PBXCoreREST\Lib\PBXApiResult;
 
 /**
  * Class PhoneBookConf

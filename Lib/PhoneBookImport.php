@@ -1,7 +1,7 @@
 <?php
 
 /*
- * MikoPBX - free phone system for small business
+ * Dzvin PBX - free phone system for small business
  * Copyright © 2017-2024 Alexey Portnov and Nikolay Beketov
  *
  * This program is free software: you can redistribute it and/or modify
@@ -20,8 +20,8 @@
 
 namespace Modules\ModulePhoneBook\Lib;
 
-use MikoPBX\Common\Handlers\CriticalErrorsHandler;
-use MikoPBX\PBXCoreREST\Lib\PBXApiResult;
+use DzvinPBX\Common\Handlers\CriticalErrorsHandler;
+use DzvinPBX\PBXCoreREST\Lib\PBXApiResult;
 use Modules\ModulePhoneBook\Models\PhoneBook;
 use Phalcon\Di\Injectable;
 use PhpOffice\PhpSpreadsheet\IOFactory;
@@ -31,7 +31,7 @@ include_once __DIR__ . '/../vendor/autoload.php';
 /**
  * Class PhoneBookImport
  *
- * @property \MikoPBX\Common\Providers\TranslationProvider translation
+ * @property \DzvinPBX\Common\Providers\TranslationProvider translation
  */
 class PhoneBookImport extends Injectable
 {

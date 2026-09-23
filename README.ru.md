@@ -1,11 +1,11 @@
-# Модуль телефонной книги для MikoPBX
+# Модуль телефонной книги для Dzvin PBX
 
-[![GitHub release](https://img.shields.io/github/v/release/mikopbx/ModulePhoneBook)](https://github.com/mikopbx/ModulePhoneBook/releases)
+[![GitHub release](https://img.shields.io/github/v/release/sanchozu/dzvinpbx-module-phonebook)](https://github.com/sanchozu/dzvinpbx-module-phonebook/releases)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-**Русская версия** | **[English](README.md)**
+**[Українською](README.uk.md)** | **Русская версия** | **[English](README.md)**
 
-Модуль управления контактами для MikoPBX с автоматическим определением имени звонящего на входящих и исходящих вызовах.
+Модуль управления контактами для Dzvin PBX с автоматическим определением имени звонящего на входящих и исходящих вызовах.
 
 ## Возможности
 
@@ -18,11 +18,11 @@
 
 ## Требования
 
-- MikoPBX версии 2024.1.114 или выше
+- Dzvin PBX версии 2024.1.114 или выше
 
 ## Установка
 
-1. Перейдите в **Модули** → **Маркетплейс** в панели администрирования MikoPBX
+1. Перейдите в **Модули** → **Маркетплейс** в панели администрирования Dzvin PBX
 2. Найдите модуль **Телефонная книга**
 3. Нажмите **Установить**
 
@@ -150,7 +150,7 @@ ModulePhoneBook/
 
 ## База данных
 
-SQLite база данных: `/storage/usbdisk1/mikopbx/custom_modules/ModulePhoneBook/db/module.db`
+SQLite база данных: `/storage/usbdisk1/dzvinpbx/custom_modules/ModulePhoneBook/db/module.db`
 
 **m_PhoneBook** — контакты:
 - `id` — первичный ключ
@@ -171,7 +171,7 @@ SQLite база данных: `/storage/usbdisk1/mikopbx/custom_modules/ModulePh
 
 ```bash
 # Компиляция ES6 в ES5 с помощью Babel
-docker run --rm -v ~/mikopbx:/workspace ghcr.io/mikopbx/babel-compiler:latest /workspace/Extensions/[module]/public/assets/js/src/[file] extension`
+docker run --rm -v ~/dzvinpbx:/workspace ghcr.io/mikopbx/babel-compiler:latest /workspace/Extensions/[module]/public/assets/js/src/[file] extension`
 ```
 
 ### Проверка синтаксиса PHP
@@ -182,15 +182,21 @@ php -l Lib/PhoneBookConf.php
 
 ## Ссылки
 
-- [Документация (RU)](https://docs.mikopbx.com/mikopbx/modules/miko/phone-book)
-- [Документация (EN)](https://docs.mikopbx.com/mikopbx/english/modules/miko/module-phone-book)
-- [Сайт MikoPBX](https://mikopbx.com)
+- [Документация MikoPBX (RU)](https://docs.mikopbx.com/mikopbx/modules/miko/phone-book) — функциональность модуля не менялась форком
+- [Документация MikoPBX (EN)](https://docs.mikopbx.com/mikopbx/english/modules/miko/module-phone-book)
 
 ## Поддержка
 
-- Email: help@miko.ru
-- Вопросы: [GitHub Issues](https://github.com/mikopbx/ModulePhoneBook/issues)
+Вопросы: [GitHub Issues](https://github.com/sanchozu/dzvinpbx-module-phonebook/issues) в этом репозитории.
 
 ## Лицензия
 
-GPL-3.0 — см. файл [LICENSE](LICENSE).
+GPL-3.0-or-later — см. файл [LICENSE](LICENSE).
+
+## Происхождение
+
+Это форк модуля [`mikopbx/ModulePhoneBook`](https://github.com/mikopbx/ModulePhoneBook) для Dzvin PBX
+(от тега `v1.55`, коммит `3ae3108`), © 2017-2024 Alexey Portnov и Nikolay Beketov, GPL-3.0-or-later.
+Форк меняет пространство имён ядра, от которого зависит модуль (`MikoPBX\` → `DzvinPBX\`), дополняет
+недостающие украинские строки интерфейса и адаптирует ссылки и процесс релизов под этот репозиторий.
+Оригинальные заголовки авторских прав и лицензии в файлах не изменены.
