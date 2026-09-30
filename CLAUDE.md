@@ -82,6 +82,5 @@ Tables:
 
 ## CI/CD
 
-No CI workflow yet. Releases are built and signed manually with `bin/build-module` from the
-`dzvinpbx-marketplace` repository and published with `gh release create`; see that repository's
-`docs/signing.md`.
+No CI workflow yet. Releases are built and signed by the Dzvin PBX marketplace maintainers
+and published with `gh release create`.
