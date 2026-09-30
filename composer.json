@@ -26,10 +26,10 @@
         "cti"
     ],
     "license": "GPL-3.0-or-later",
-    "homepage": "https://github.com/sanchozu/dzvinpbx-module-phonebook",
+    "homepage": "https://github.com/dzvinpbx/dzvinpbx-module-phonebook",
     "support": {
-        "issues": "https://github.com/sanchozu/dzvinpbx-module-phonebook/issues",
-        "source": "https://github.com/sanchozu/dzvinpbx-module-phonebook"
+        "issues": "https://github.com/dzvinpbx/dzvinpbx-module-phonebook/issues",
+        "source": "https://github.com/dzvinpbx/dzvinpbx-module-phonebook"
     },
     "authors": [
         {

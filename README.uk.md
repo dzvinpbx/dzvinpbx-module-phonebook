@@ -1,6 +1,6 @@
 # Модуль телефонної книги для Dzvin PBX
 
-[![GitHub release](https://img.shields.io/github/v/release/sanchozu/dzvinpbx-module-phonebook)](https://github.com/sanchozu/dzvinpbx-module-phonebook/releases)
+[![GitHub release](https://img.shields.io/github/v/release/dzvinpbx/dzvinpbx-module-phonebook)](https://github.com/dzvinpbx/dzvinpbx-module-phonebook/releases)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 **Українською** | **[Русская версия](README.ru.md)** | **[English](README.md)**
@@ -193,7 +193,7 @@ php -l Lib/PhoneBookConf.php
 
 ## Підтримка
 
-Питання: [GitHub Issues](https://github.com/sanchozu/dzvinpbx-module-phonebook/issues) у цьому репозиторії.
+Питання: [GitHub Issues](https://github.com/dzvinpbx/dzvinpbx-module-phonebook/issues) у цьому репозиторії.
 
 ## Ліцензія
 
