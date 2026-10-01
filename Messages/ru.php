@@ -38,7 +38,7 @@ return [
     'module_phnbk_ExcelInstructionStep1' => 'Файл должен быть в формате <strong>.xls</strong> или <strong>.xlsx.</strong>',
     'module_phnbk_ExcelInstructionStep2' => 'В файле должны присутствовать два столбца:',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>CallerID</strong> — имя абонента (например: Иван Иванов).',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Номер телефона</strong> — в формате <em>+7(926)123-45-67</em>.',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Номер телефона</strong> — в формате <em>+380 44 123 45 67</em>.',
     'module_phnbk_ExcelInstructionStep3' => 'Каждая строка представляет собой запись телефонной книги.',
     'module_phnbk_ExcelInstructionStep4' => 'Убедитесь, что данные в файле корректны, перед тем как его загрузить.',
     'module_phnbk_ImportError' => 'Ошибка при сохранении записи',

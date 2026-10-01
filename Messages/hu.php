@@ -29,7 +29,7 @@ return [
     'module_phnbk_ExcelInstructionStep1' => 'A fájl formátuma <strong>.xls</strong> vagy <strong>.xlsx.</strong>',
     'module_phnbk_ExcelInstructionStep2' => 'A fájlnak két oszlopot kell tartalmaznia:',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>Hívóazonosító</strong> – előfizető neve (például: Ivan Ivanov).',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Telefonszám</strong> – <em>+7(926)123-45-67</em> formátumban.',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Telefonszám</strong> – <em>+380 44 123 45 67</em> formátumban.',
     'module_phnbk_ExcelInstructionStep3' => 'Minden sor egy telefonkönyv-bejegyzést jelöl.',
     'module_phnbk_ExcelInstructionStep4' => 'Feltöltés előtt győződjön meg arról, hogy a fájlban szereplő adatok helyesek.',
     'module_phnbk_DeleteAllRecords' => 'Telefonkönyv törlése',

@@ -27,7 +27,7 @@ return [
     'module_phnbk_ExcelInstructionStep1' => 'Die Datei muss im Format <strong>.xls</strong> oder <strong>.xlsx.</strong> vorliegen.',
     'module_phnbk_ExcelInstructionStep2' => 'Die Datei muss zwei Spalten enthalten:',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>CallerID</strong> – Name des Teilnehmers (zum Beispiel: Ivan Ivanov).',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Telefonnummer</strong> – im Format <em>+7(926)123-45-67</em>.',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Telefonnummer</strong> – im Format <em>+380 44 123 45 67</em>.',
     'module_phnbk_ExcelInstructionStep3' => 'Jede Zeile stellt einen Telefonbucheintrag dar.',
     'module_phnbk_ExcelInstructionStep4' => 'Stellen Sie sicher, dass die Daten in der Datei korrekt sind, bevor Sie sie hochladen.',
     'module_phnbk_SettingsTab' => 'Einstellungen',

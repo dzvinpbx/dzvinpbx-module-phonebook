@@ -27,7 +27,7 @@ return [
     'module_phnbk_ExcelInstructionStep1' => 'Tiedoston on oltava muodossa <strong>.xls</strong> tai <strong>.xlsx.</strong>',
     'module_phnbk_ExcelInstructionStep2' => 'Tiedostossa on oltava kaksi saraketta:',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>Soittajan ID</strong> - tilaajan nimi (esimerkiksi: Ivan Ivanov).',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Puhelinnumero</strong> – muodossa <em>+7(926)123-45-67</em>.',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Puhelinnumero</strong> – muodossa <em>+380 44 123 45 67</em>.',
     'module_phnbk_ExcelInstructionStep3' => 'Jokainen rivi edustaa puhelinluettelon merkintää.',
     'module_phnbk_ExcelInstructionStep4' => 'Varmista ennen tiedoston lataamista, että tiedoston tiedot ovat oikein.',
     'module_phnbk_ImportError' => 'Virhe tallennettaessa merkintää',

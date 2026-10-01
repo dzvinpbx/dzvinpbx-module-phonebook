@@ -28,7 +28,7 @@ return [
     'module_phnbk_ExcelInstructionStep1' => 'ფაილი უნდა იყოს <strong>.xls</strong> ან <strong>.xlsx ფორმატში.</strong>',
     'module_phnbk_ExcelInstructionStep2' => 'ფაილი უნდა შეიცავდეს ორ სვეტს:',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>CallerID</strong> - აბონენტის სახელი (მაგალითად: ივან ივანოვი).',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>ტელეფონის ნომერი</strong> - ფორმატში <em>+7(926)123-45-67</em>.',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>ტელეფონის ნომერი</strong> - ფორმატში <em>+380 44 123 45 67</em>.',
     'module_phnbk_ExcelInstructionStep4' => 'ატვირთვამდე დარწმუნდით, რომ ფაილში არსებული მონაცემები სწორია.',
     'module_phnbk_SettingsTab' => 'პარამეტრები',
     'module_phnbk_disableInputMask' => 'გამორთეთ ნომრის ნიღაბი',

@@ -28,7 +28,7 @@ return [
     'module_phnbk_ExcelInstructionStep1' => 'Plik musi być w formacie <strong>.xls</strong> lub <strong>.xlsx.</strong>',
     'module_phnbk_ExcelInstructionStep2' => 'Plik musi zawierać dwie kolumny:',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>IDCallerID</strong> - nazwa abonenta (na przykład: Iwan Iwanow).',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Numer telefonu</strong> - w formacie <em>+7(926)123-45-67</em>.',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Numer telefonu</strong> - w formacie <em>+380 44 123 45 67</em>.',
     'module_phnbk_ExcelInstructionStep3' => 'Każda linia reprezentuje wpis książki telefonicznej.',
     'module_phnbk_ExcelInstructionStep4' => 'Przed przesłaniem upewnij się, że dane w pliku są prawidłowe.',
     'module_phnbk_ImportError' => 'Błąd podczas zapisywania wpisu',

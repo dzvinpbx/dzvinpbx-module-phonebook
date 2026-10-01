@@ -20,7 +20,7 @@ return [
     'module_phnbk_Disconnected' => 'Module disabled',
     'module_phnbk_Search' => 'Find...',
     'module_phnbk_PhonebookTab' => 'Phone book',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Phone number</strong> — in the format <em>+7(926)123-45-67</em>.',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Phone number</strong> — in the format <em>+380 44 123 45 67</em>.',
     'module_phnbk_ExcelInstructionStep3' => 'Each line represents a phone book entry.',
     'module_phnbk_ImportError' => 'Error saving record',
     'module_phnbk_ImportFromExcel' => 'Import',

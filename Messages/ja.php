@@ -23,7 +23,7 @@ return [
     'module_phnbk_PhonebookTab' => '電話帳',
     'module_phnbk_ImportFromExcelLabel' => 'ダウンロードするExcelファイルを選択してください',
     'module_phnbk_ExcelInstructionHeader' => 'Excel から電話帳をダウンロードする手順',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>電話番号</strong> - <em>+7(926)123-45-67</em>の形式。',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>電話番号</strong> - <em>+380 44 123 45 67</em>の形式。',
     'module_phnbk_ExcelInstructionStep3' => '各行は電話帳のエントリを表します。',
     'module_phnbk_ImportError' => 'エントリの保存中にエラーが発生しました',
     'module_phnbk_ExcelInstructionStep1' => 'ファイルの形式は <strong>.xls</strong> または <strong>.xlsx.</strong> である必要があります',

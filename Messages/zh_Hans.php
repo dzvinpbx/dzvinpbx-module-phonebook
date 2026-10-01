@@ -22,7 +22,7 @@ return [
     'module_phnbk_ExcelInstructionStep1' => '文件格式必须为 <strong>.xls</strong> 或 <strong>.xlsx.</strong>',
     'module_phnbk_ExcelInstructionStep2' => '该文件必须包含两列：',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>CallerID</strong> - 用户姓名（例如：Ivan Ivanov）。',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>电话号码</strong> - 格式为<em>+7(926)123-45-67</em>。',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>电话号码</strong> - 格式为<em>+380 44 123 45 67</em>。',
     'module_phnbk_ExcelInstructionStep3' => '每行代表一个电话簿条目。',
     'module_phnbk_ExcelInstructionStep4' => '上传之前请确保文件中的数据正确。',
     'module_phnbk_ImportError' => '保存条目时出错',

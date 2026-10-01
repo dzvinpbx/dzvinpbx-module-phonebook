@@ -27,7 +27,7 @@ return [
     'module_phnbk_ExcelInstructionStep1' => 'Il file deve essere nel formato <strong>.xls</strong> o <strong>.xlsx.</strong>',
     'module_phnbk_ExcelInstructionStep2' => 'Il file deve contenere due colonne:',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>ID chiamante</strong> - nome dell\'abbonato (ad esempio: Ivan Ivanov).',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Numero di telefono</strong> - nel formato <em>+7(926)123-45-67</em>.',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Numero di telefono</strong> - nel formato <em>+380 44 123 45 67</em>.',
     'module_phnbk_ExcelInstructionStep3' => 'Ogni riga rappresenta una voce della rubrica.',
     'module_phnbk_ExcelInstructionStep4' => 'Assicurati che i dati nel file siano corretti prima di caricarlo.',
     'module_phnbk_ImportError' => 'Errore durante il salvataggio della voce',

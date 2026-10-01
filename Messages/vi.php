@@ -22,7 +22,7 @@ return [
     'module_phnbk_ImportExcelTab' => 'Nhập từ Excel',
     'module_phnbk_PhonebookTab' => 'Danh bạ điện thoại',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>CallerID</strong> - tên người đăng ký (ví dụ: Ivan Ivanov).',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Số điện thoại</strong> - ở định dạng <em>+7(926)123-45-67</em>.',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Số điện thoại</strong> - ở định dạng <em>+380 44 123 45 67</em>.',
     'module_phnbk_ImportError' => 'Lỗi lưu mục nhập',
     'module_phnbk_ImportFromExcelLabel' => 'Chọn file Excel để tải về',
     'module_phnbk_ExcelInstructionHeader' => 'Hướng dẫn tải danh bạ từ Excel',

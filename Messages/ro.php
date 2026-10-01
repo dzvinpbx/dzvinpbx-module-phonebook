@@ -29,7 +29,7 @@ return [
     'module_phnbk_PhonebookTab' => 'Agenda telefonică',
     'module_phnbk_ImportFromExcelLabel' => 'Selectați fișierul Excel pentru a descărca',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>CallerID</strong> - numele abonatului (de exemplu: Ivan Ivanov).',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Număr de telefon</strong> - în formatul <em>+7(926)123-45-67</em>.',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Număr de telefon</strong> - în formatul <em>+380 44 123 45 67</em>.',
     'module_phnbk_SettingsTab' => 'Setări',
     'module_phnbk_disableInputMask' => 'Dezactivează masca de numere',
     'module_phnbk_DeleteAllRecords' => 'Ștergeți agenda telefonică',

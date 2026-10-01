@@ -26,7 +26,7 @@ return [
     'module_phnbk_ExcelInstructionStep1' => 'Filen måste vara i formatet <strong>.xls</strong> eller <strong>.xlsx.</strong>',
     'module_phnbk_ExcelInstructionStep2' => 'Filen måste innehålla två kolumner:',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>CallerID</strong> - abonnentnamn (till exempel: Ivan Ivanov).',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Telefonnummer</strong> - i formatet <em>+7(926)123-45-67</em>.',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Telefonnummer</strong> - i formatet <em>+380 44 123 45 67</em>.',
     'module_phnbk_ExcelInstructionStep3' => 'Varje rad representerar en telefonbokspost.',
     'module_phnbk_ExcelInstructionStep4' => 'Se till att data i filen är korrekt innan du laddar upp den.',
     'module_phnbk_ImportError' => 'Det gick inte att spara posten',

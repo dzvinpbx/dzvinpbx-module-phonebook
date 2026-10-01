@@ -27,7 +27,7 @@ return [
     'module_phnbk_ExcelInstructionStep1' => 'Filen skal være i formatet <strong>.xls</strong> eller <strong>.xlsx.</strong>',
     'module_phnbk_ExcelInstructionStep2' => 'Filen skal indeholde to kolonner:',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>Opkalds-ID</strong> - abonnentnavn (for eksempel: Ivan Ivanov).',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Telefonnummer</strong> - i formatet <em>+7(926)123-45-67</em>.',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Telefonnummer</strong> - i formatet <em>+380 44 123 45 67</em>.',
     'module_phnbk_ExcelInstructionStep3' => 'Hver linje repræsenterer en telefonbogspost.',
     'module_phnbk_ExcelInstructionStep4' => 'Sørg for, at dataene i filen er korrekte, før du uploader den.',
     'module_phnbk_ImportError' => 'Fejl ved lagring af post',

@@ -37,7 +37,7 @@ return [
     'module_phnbk_ExcelInstructionStep1' => 'Datoteka mora biti u formatu <strong>.xls</strong> ili <strong>.xlsx.</strong>',
     'module_phnbk_ExcelInstructionStep2' => 'Datoteka mora sadržavati dva stupca:',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>CallerID</strong> - ime pretplatnika (na primjer: Ivan Ivanov).',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Telefonski broj</strong> - u formatu <em>+7(926)123-45-67</em>.',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Telefonski broj</strong> - u formatu <em>+380 44 123 45 67</em>.',
     'module_phnbk_ExcelInstructionStep3' => 'Svaki redak predstavlja unos u telefonskom imeniku.',
     'module_phnbk_ExcelInstructionStep4' => 'Provjerite jesu li podaci u datoteci točni prije nego što je učitate.',
     'module_phnbk_ImportError' => 'Pogreška prilikom spremanja unosa',

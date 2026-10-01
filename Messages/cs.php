@@ -27,7 +27,7 @@ return [
     'module_phnbk_ExcelInstructionStep1' => 'Soubor musí být ve formátu <strong>.xls</strong> nebo <strong>.xlsx.</strong>',
     'module_phnbk_ExcelInstructionStep2' => 'Soubor musí obsahovat dva sloupce:',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>CallerID</strong> – jméno účastníka (například: Ivan Ivanov).',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Telefonní číslo</strong> - ve formátu <em>+7(926)123-45-67</em>.',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Telefonní číslo</strong> - ve formátu <em>+380 44 123 45 67</em>.',
     'module_phnbk_ExcelInstructionStep3' => 'Každý řádek představuje položku telefonního seznamu.',
     'module_phnbk_ExcelInstructionStep4' => 'Před nahráním souboru se ujistěte, že jsou data v souboru správná.',
     'module_phnbk_SettingsTab' => 'Nastavení',

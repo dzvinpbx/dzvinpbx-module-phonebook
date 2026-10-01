@@ -27,7 +27,7 @@ return [
     'module_phnbk_ExcelInstructionStep1' => 'Fayl <strong>.xls</strong> və ya <strong>.xlsx.</strong> formatında olmalıdır.',
     'module_phnbk_ExcelInstructionStep2' => 'Fayl iki sütundan ibarət olmalıdır:',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>CallerID</strong> - abunəçinin adı (məsələn: İvan İvanov).',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Telefon nömrəsi</strong> - <em>+7(926)123-45-67</em> formatında.',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Telefon nömrəsi</strong> - <em>+380 44 123 45 67</em> formatında.',
     'module_phnbk_ExcelInstructionStep3' => 'Hər bir sətir telefon kitabçası girişini təmsil edir.',
     'module_phnbk_ExcelInstructionStep4' => 'Yükləməzdən əvvəl fayldakı məlumatların düzgün olduğundan əmin olun.',
     'module_phnbk_ImportError' => 'Giriş yadda saxlanılarkən xəta baş verdi',

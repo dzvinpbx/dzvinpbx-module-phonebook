@@ -26,7 +26,7 @@ return [
     'module_phnbk_ExcelInstructionStep1' => 'Dosya <strong>.xls</strong> veya <strong>.xlsx.</strong> biçiminde olmalıdır.',
     'module_phnbk_ExcelInstructionStep2' => 'Dosya iki sütun içermelidir:',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>Arayanın Kimliği</strong> - abone adı (örneğin: Ivan Ivanov).',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Telefon numarası</strong> - <em>+7(926)123-45-67</em> biçiminde.',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Telefon numarası</strong> - <em>+380 44 123 45 67</em> biçiminde.',
     'module_phnbk_ExcelInstructionStep3' => 'Her satır bir telefon rehberi girişini temsil eder.',
     'module_phnbk_ExcelInstructionStep4' => 'Dosyayı yüklemeden önce dosyadaki verilerin doğru olduğundan emin olun.',
     'module_phnbk_ImportError' => 'Giriş kaydedilirken hata oluştu',

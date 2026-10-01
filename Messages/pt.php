@@ -30,7 +30,7 @@ return [
     'module_phnbk_SettingsTab' => 'Configurações',
     'module_phnbk_disableInputMask' => 'Desativar máscara numérica',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>CallerID</strong> - nome do assinante (por exemplo: Ivan Ivanov).',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Número de telefone</strong> - no formato <em>+7(926)123-45-67</em>.',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Número de telefone</strong> - no formato <em>+380 44 123 45 67</em>.',
     'module_phnbk_ExcelInstructionStep3' => 'Cada linha representa uma entrada da lista telefônica.',
     'module_phnbk_DeleteAllRecords' => 'Limpar lista telefônica',
     'module_phnbk_CancelBtn' => 'Cancelar',

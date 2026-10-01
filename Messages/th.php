@@ -26,7 +26,7 @@ return [
     'module_phnbk_ExcelInstructionStep1' => 'ไฟล์ต้องอยู่ในรูปแบบ <strong>.xls</strong> หรือ <strong>.xlsx.</strong>',
     'module_phnbk_ExcelInstructionStep2' => 'ไฟล์จะต้องมีสองคอลัมน์:',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>CallerID</strong> - ชื่อสมาชิก (เช่น: Ivan Ivanov)',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>หมายเลขโทรศัพท์</strong> - ในรูปแบบ <em>+7(926)123-45-67</em>',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>หมายเลขโทรศัพท์</strong> - ในรูปแบบ <em>+380 44 123 45 67</em>',
     'module_phnbk_ImportError' => 'เกิดข้อผิดพลาดในการบันทึกรายการ',
     'module_phnbk_ExcelInstructionStep3' => 'แต่ละบรรทัดแสดงถึงรายการสมุดโทรศัพท์',
     'module_phnbk_ExcelInstructionStep4' => 'ตรวจสอบให้แน่ใจว่าข้อมูลในไฟล์ถูกต้องก่อนที่จะอัปโหลด',

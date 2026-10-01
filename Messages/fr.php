@@ -26,7 +26,7 @@ return [
     'module_phnbk_ExcelInstructionStep1' => 'Le fichier doit être au format <strong>.xls</strong> ou <strong>.xlsx.</strong>',
     'module_phnbk_ExcelInstructionStep2' => 'Le fichier doit contenir deux colonnes :',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>CallerID</strong> - nom de l\'abonné (par exemple : Ivan Ivanov).',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Numéro de téléphone</strong> - au format <em>+7(926)123-45-67</em>.',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Numéro de téléphone</strong> - au format <em>+380 44 123 45 67</em>.',
     'module_phnbk_ExcelInstructionStep3' => 'Chaque ligne représente une entrée du répertoire téléphonique.',
     'module_phnbk_ExcelInstructionStep4' => 'Assurez-vous que les données du fichier sont correctes avant de le télécharger.',
     'module_phnbk_ImportError' => 'Erreur lors de l\'enregistrement de l\'entrée',

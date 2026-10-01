@@ -26,7 +26,7 @@ return [
     'module_phnbk_ExcelInstructionStep1' => 'Het bestand moet het formaat <strong>.xls</strong> of <strong>.xlsx.</strong> hebben',
     'module_phnbk_ExcelInstructionStep2' => 'Het bestand moet twee kolommen bevatten:',
     'module_phnbk_ExcelInstructionStep2_1' => '<strong>BellerID</strong> - naam van de abonnee (bijvoorbeeld: Ivan Ivanov).',
-    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Telefoonnummer</strong> - in het formaat <em>+7(926)123-45-67</em>.',
+    'module_phnbk_ExcelInstructionStep2_2' => '<strong>Telefoonnummer</strong> - in het formaat <em>+380 44 123 45 67</em>.',
     'module_phnbk_ExcelInstructionStep3' => 'Elke regel vertegenwoordigt een telefoonboekvermelding.',
     'module_phnbk_ExcelInstructionStep4' => 'Zorg ervoor dat de gegevens in het bestand correct zijn voordat u het uploadt.',
     'module_phnbk_ImportError' => 'Fout bij opslaan van invoer',
